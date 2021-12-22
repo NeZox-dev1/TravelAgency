@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="272c9077d3724e36b7d212a7d6b9520d" Name="Diagram1">
+        <EntityTypeShape EntityType="TravelagencyModel.AdditionalServices" Width="1.5" PointX="0.75" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TravelagencyModel.Clients" Width="1.5" PointX="0.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TravelagencyModel.Employees" Width="1.5" PointX="0.75" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TravelagencyModel.Hotels" Width="1.5" PointX="0.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TravelagencyModel.Positions" Width="2.875" PointX="1.75" PointY="14.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TravelagencyModel.RestType" Width="1.5" PointX="6.25" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TravelagencyModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TravelagencyModel.Vouchers" Width="2.625" PointX="3" PointY="1.125" IsExpanded="true" />
+        <AssociationConnector Association="TravelagencyModel.FK_Путевки_Дополнительные_услуги" ManuallyRouted="false" />
+        <AssociationConnector Association="TravelagencyModel.FK_Путевки_Дополнительные_услуги1" ManuallyRouted="false" />
+        <AssociationConnector Association="TravelagencyModel.FK_Путевки_Дополнительные_услуги2" ManuallyRouted="false" />
+        <AssociationConnector Association="TravelagencyModel.FK_Путевки_Клиенты" ManuallyRouted="false" />
+        <AssociationConnector Association="TravelagencyModel.FK_Путевки_Сотрудники" ManuallyRouted="false" />
+        <AssociationConnector Association="TravelagencyModel.FK_Сотрудники_Должности" ManuallyRouted="false" />
+        <AssociationConnector Association="TravelagencyModel.FK_Путевки_Отели" ManuallyRouted="false" />
+        <AssociationConnector Association="TravelagencyModel.FK_Путевки_Виды_отдыха" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
